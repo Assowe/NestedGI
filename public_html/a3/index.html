@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign up</title> 
+  <link rel = "stylesheet" href = "a3.css" />
+  <link rel = "stylesheet" href = "a3.js" />
+  <link rel = "stylesheet" href = "a3-countries.js" />
+  <style>
+    .section{
+	  	border: 1px black solid;
+		width:50%;
+		margin:auto;
+		background-color:white;
+	    padding-left:2%;
+	    padding-right:2%;
+	}
+	input:focus {
+		border:1px solid green;
+		box-shadow: 0 0 10px green;
+    }
+  </style>
+</head>
+<body>
+  
+  <header>
+   	<h2>Senada INC.</h2> 
+  </header>
+  <div class="section">	
+    <h3>Create Your Senada Account</h3>
+	<p>Your Seneda Account gives you acces to a variety of online services, applications, and communities. You may choose to sign</br>
+	up for subscriptions when you create your account</p>
+	<span style="color:red;"> *Required information</span></br></br>
+	<div class="center">
+   	<form method='post' name="form1 "action = "http://formpost.azurewebsites.net/home/test" onsubmit="return validForm();">
+		<div>
+           <label for="em">Email</label>
+		   <span style="color:red">*</span><input type="email" id="em" name="email" autofocus required/>
+	       Your email address is your username	
+		</div>
+		<div>
+           <label for="pass">Password</label>
+		   <span style="color:red">*</span><input type="password" id="pass" name="password" required/>
+		</div>
+		<div>
+           <label for="repass">Retype Password</label>
+		   <span style="color:red">*</span><input type="password" id="repass" name="password" required/>
+		</div>
+		      </br>
+		<div id="cont">
+           
+		</div>
+		<div>
+           <label for="name">Name</label>
+		   <span style="color:red">*</span><input type="text" id="fname" name="fname" placeholder="First or Given Name" required/>
+		   <span style="color:red">*</span><input type="text" id="lname" name="lname"  placeholder="Last name or Surname" required/>
+		</div>
+		<div>
+           <label for="job">Job Title</label>
+		   <span style="color:red">*</span><input type="text" id="job" name="Job" required/>
+		</div>
+		<div>
+           <label for="txt">Phone Number</label>
+		   <span style="color:red">*</span><input type="text" id="txt" placeholder="(999)999-9999" pattern="[0-9]{10}" required/>
+		</div>
+		<div>
+           <label for="comp">Your Company</label>
+		   <span style="color:red">*</span><input type="text" id="comp" name="company" required/></p>
+		</div>
+		  </br>
+		<div>
+           <label for="add">Address</label>
+		   <span style="color:red">*</span><input type="text" id="add" name="ad1" required/>
+		   <input type="text" name="ad2"/>
+		</div>
+		<div>
+           <label for="city">City</label>
+		   <span style="color:red">*</span><input type="text" id="city" name="city" required/>
+		</div>
+		<div>
+           <label for="prov">Province</label>
+		   <span style="color:red">*</span><select id="prov">
+		   </select>
+		</div>
+		<div>
+           <label for="zip">ZIP/Postal Code</label>
+		   <span style="color:red">*</span><input type="text" id="zip" name="Z/P"/>
+		</div>
+		<div>
+			<fieldset>
+			    <legend>How did you hear about us?</legend>
+				<div>
+				  <label for="google"><input type="radio"  id="google" value="google"/>Google Search</label>
+				</div>
+				<div>
+				  <label for="bing"><input type="radio" id="bing" value="bing"/>Blog Post</label>
+				</div>
+				<div>
+				<label for="zip"><input type="radio" id="friend" value="friend"/>Friend</label>
+				</div>
+				<div>
+				<label for="zip"><input type="radio" id="others" value="others"/>Others</label>
+				</div> 
+			</fieldset>
+		</div>
+		</br></br></br></br></br></br>
+	
+		<p><input type="checkbox"  id="check" value="check"/>Yes, send me e-mails on Senaca Products, Services and Events.</p>
+		
+		<p><input type="submit" class ="buttonColor" value="Create Account"/>
+		   <input type="reset" class ="buttonColor" value="Reset"/></p>
+		
+	</form>
+   	</div>
+	
+	<footer>
+      <script>
+         var dt=new Date(document.lastModified);
+         document.write("This page was last modified on " +
+         dt.toLocaleString());
+      </script> 
+    </footer>
+	</br>
+  </div>
+</body>
+</html>

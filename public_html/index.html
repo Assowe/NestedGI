@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>NestedGItest</title>
+  <link rel="icon" href="media/icon.png" type="image/x-icon">
+  <link rel = "stylesheet" href = "CSS\CS1.css" />
+  <meta charset="UTF-8">
+  <style>
+    table {width:70%;}
+    thead {color: #F3F3F3; font-size:20px;}
+    tbody { color: green;height: 100px;}
+	
+    .center {    
+	  margin-left: auto;
+      margin-right: auto;
+      width: 63%; 
+	  padding: 80px 0px 0px 0px
+	}
+	.bck {    
+	  position: absolute;
+	  height:80%;
+	  top: 3.4%;
+	  -webkit-filter: blur(5px);
+      -moz-filter: blur(5px);
+      -o-filter: blur(5px);
+      -ms-filter: blur(5px);
+      filter: blur(5px);
+    }
+    .bc {
+	  background-color:#2A333E; 
+	}
+    .columnDivide{
+	  width:55%;
+      background-color:#14191D;
+      float:left;   
+      height:20px;
+      padding-right:15%;	  
+	}
+    #header {
+      background-color:black;
+      color:white;
+      text-align:center;
+      padding:5px;
+    }
+    #section {
+      width:95%;
+    }
+  </style>
+</head>  
+<body>
+  <div id = "iefix" class="bc"> <!-- Brings the drop down menu to the front of the page-->
+    <nav>
+      <ul>
+        <li><a href="index.html" title="Main Page"><img src = "media/Nested.png" alt= "Nested" width ="100%" height = "100%"/></a></li>
+        <li><a href="https://www.bungie.net" title="link to extern page">Bungie</a>
+          <ul>
+            <li><a href="https://www.bungie.net/en/Legend/Gear/1/4611686018429659004/2305843009225385385" title="link to extern page">Legends</a></li>
+            <li><a href="https://www.bungie.net/en/Community" title="link to extern page">Community</a></li>
+            <li><a href="http://www.destinylfg.net/" title="link to extern page">Destiny Lfg</a></li>
+          </ul>
+        </li>
+	    <li><a href="http://www.twitch.tv/">Twitch</a>
+	      <ul>
+            <li><a href="http://www.twitch.tv/kinggothalion">KingGothalion</a></li>
+            <li><a href="http://www.twitch.tv/lirik">Lirik</a></li>
+            <li><a href="http://www.twitch.tv/msteamkk">Ms Team KK</a></li>
+	        <li><a href="http://www.twitch.tv/laced_up_lauren">LacedUpLauren</a></li>
+		    <li><a href="http://www.twitch.tv/giantwaffle">Giantwaffle</a></li>
+          </ul>
+	   	</li>
+	    <li><a href="http://www.youtube.com/">Youtube</a></li>
+        <li><a>Honesty</a>
+          <ul>
+            <li><a href="Contract.html">Contract</a></li>
+          </ul>
+        </li>
+        <li><a> Help </a>
+          <ul>
+            <li><a href="faq.html">FAQ</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="About.html">About</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div id="header"> <!-- Holds the two large image sliders -->
+    <div id="slider" class="bck">
+      <figure>
+        <img src = "media\BF1.png" alt = "pic">
+	    <img src = "media\DestL.jpg" alt = "pic">
+		<img src = "media\Over.png" alt = "pic">
+		<img src = "media\AudiR8.jpg" alt = "pic"/>
+		<img src = "media\Master.jpg" alt = "pic">
+	  </figure>
+	</div>
+    <div id="slider" class ="center">
+      <figure>
+        <img src = "media\BF1.png" alt = "pic">
+	    <img src = "media\DestL.jpg" alt = "pic">
+		<img src = "media\Over.png" alt = "pic">
+		<img src = "media\AudiR8.jpg" alt = "pic"/>
+		<img src = "media\Master.jpg" alt = "pic">
+	  </figure>
+	</div>
+	</div>
+	<div id="nav"> <!-- Second navigation bar-->
+	  <h2> Menu</h2>
+	    <h2>---------------</h2>
+	    <a href="Profile.html"><img src = "media/folderIcon.png" alt= "Profile" width ="10%" height = "50%"/></a> Profile<br>
+		<a href="Account.html"><img src = "media/folderIcon.png" alt= "Account" width ="10%" height = "50%"/></a> Account<br>
+		<a href="Preference.html"><img src = "media/folderIcon.png" alt= "Preferences" width ="10%" height = "50%"/></a> Preferences<br>
+		<a href="Settings.html"><img src = "media/folderIcon.png" alt= "Settings" width ="10%" height = "50%"/></a> Settings<br>
+	    <a href="Labs.html"><img src = "media/folderIcon.png" alt= "Labs" width ="10%" height = "50%"/></a> Labs<br>
+	  <span style="display: block !important; width: 100px; text-align: center; font-family: sans-serif; font-size: 12px;">
+	    <a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.1.71265&bannertypeclick=wu_clean2day" 
+	       title="Toronto, Ontario Weather Forecast" target="_blank">
+	    <img src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_clean2day_metric_cond&airportcode=CYTZ&ForcedCity=Toronto&ForcedState=Canada&wmo=71265&language=EN" 
+		   alt="Find more about Weather in Toronto, CA" width="245" /></a><br>
+	  </span>
+	</div>
+	 
+	<div id="section"> <!--Center column-->
+	<table border="5">
+      <thead>
+         <tr>
+            <td> College News </td>
+            <td> Gaming News </td>
+            <td> World News </td>
+		 </tr>
+      </thead>
+	  
+      <tbody>
+		 <tr>
+		   <td> 
+		     <a href="http://www.senecacollege.ca/collegenews">
+		       <img src="media/seneca.png" alt="Seneca News" height="50" width="200">
+			 </a>
+		   </td>
+           <td> 
+		     <a href="http://kotaku.com/"> 
+			   <img src="media/kotaku.png" alt="Kotaku" height="80" width="200">
+	         </a>
+		   </td>
+           <td>
+		     <a href="http://www.aljazeera.com/">
+		       <img src="media/aljazeera.png" alt="Al jazeera" height="80" width="200">
+		     </a>
+		   </td>
+		 </tr>
+		   <tr>
+		     <td>
+		     </td>
+		     <td>
+		       <a href="http://www.gamespot.com/"> 
+			     <img src="media/gamespot.png" alt="Gamespot" height="80" width="200">
+			   </a>
+		     </td>
+		     <td>
+		       <a href="http://globalnews.ca/">
+		         <img src="media/glob.png" alt="Global News" height="80" width="200">
+		       </a>
+		     </td>
+		   </tr>
+		   <tr>
+		     <td>
+		     </td>
+		     <td>
+		       <a href="http://www.ign.com/"> 
+			     <img src="media/ign.png" alt="IGN" height="80" width="200">
+			   </a>
+		     </td>
+		     <td>
+		       <a href="http://www.cbc.ca/"> 
+			     <img src="media/cbc.png" alt="CBC News" height="50" width="200">
+			   </a>
+		     </td>
+	       </tr>
+         </tbody>
+         <tfoot>
+       </table>
+	   <div class="columnDivide">
+	   </div>
+	   <div id="video">
+         <video src="media/video/ViD1.mp4" width="41%"  controls></video>
+	     <video src="media/video/ViD2.mp4" width="41%" controls></video>
+       </div>	   
+	 </div>
+	 <!-- 
+	 <div id="audio"> 
+	 <audio autoplay="autoplay" controls="controls" volume=".1" loop="" width="100%" >
+       <source src="media/audio/Halo-Channel-Theme.m.ogg" type="audio/ogg"></source>
+       <source src="media/audio/Halo Channel Theme.mp3" type="audio/mpeg"></source>
+	   <source src="media/audio/Halo-Channel-Theme.m.wav" type="audio/wav"></source>
+	   <source src="media/audio/Halo-Channel-Theme.aac" type="audio/acc"></source>
+     </audio>
+	 </div>
+	 -->
+	 <footer> 
+       <div class="colwrapper">	 
+	   <script>
+         var dt=new Date(document.lastModified);
+         document.write("<mark> This page was last modified on " +
+         dt.toLocaleString() + "</mark>");
+       </script>
+       <div class="column">	
+         <ul style="list-style-type:none">
+           <li><strong><a href="index.html">Nested.com<strong></a></li>
+		   <li><a href="About.html"> About us </a></li>
+		   <li><a href="Terms.html"> Terms of User </a></li>
+         </ul>		 
+       </div>
+	   <div class="column">
+	     <ul style="list-style-type:none">
+           <li><strong>Links</strong></li>
+		   <li><a href="https://bungie.net"> Bungie </a></li>
+		   <li><a href="https://twitch.tv"> Twitch </a></li>
+		   <li><a href="https://youtube.com"> Youtube </a></li>
+		   <li><a href="contract.html"> Honesty </a></li>
+		   <li><a href="faq.html"> Help </a></li>
+		   <li><a href="Contract.html"> Contact </a></li>
+		   
+         </ul>
+		 
+	   </div>
+	   <div class="column">
+		 <br/>Follow us <a href="https://ca.linkedin.com/pub/yahya-assowe/b4/555/824"><img src = "media/linkedin.png" alt= "LinkedIn" width ="15%" height = "20%"/> </a>
+		 <a href="https://twitter.com/CatSniper420"><img src = "media/TwitterIcon.png" alt= "Twitter" width ="15%" height = "20%"/></a>
+		 <a href="https://www.tumblr.com/dashboard"><img src = "media/tumblr.png" alt= "Tumblr" width ="20%" height = "24%"/></a>
+       </div>
+	   </div>
+	   <div id="columnFoot" style="text-align:center"> © 201 NestedGI, Inc. All rights reserved. </div>
+	 </footer>
+	 
+</body>
+</html>

@@ -1,0 +1,61 @@
+  body{
+	  background-color:#ECECEC;
+	  margin:auto;
+  }
+  header {
+    background-color:#BF0000;
+    color:white;
+    text-align:left;
+    padding:1px;
+	width: 50%;
+	margin:auto;
+	padding-left:2%;
+	padding-right:2%;
+
+  }
+  form{
+	  position:relative;
+		width:80%;
+		margin:auto;
+	}
+  input {
+	  position:relative;
+    display:inline-block;
+    vertical-align:middle;
+	margin-bottom: 2%;
+}
+  label {
+	  position:relative;
+    display:inline-block;
+    float: left;
+    text-align: right;
+    width: 140px;
+}
+
+  footer {
+	  
+	margin:auto;
+	width: 100%;
+	text-align:center;
+    background-color:#D3D3D3;
+    color:black;
+    clear:both;
+	font:20px;
+	padding-left:1%;
+	padding-bottom:1%;
+
+  }
+  	fieldset{
+	    width:30%;
+		margin:auto;
+		display:inline-block;
+        float: left;		
+		margin-left:20%;
+	}
+	fieldset label input{
+		float:left;
+	}
+	.buttonColor{
+		background-color:#BF0000;
+		color:white;
+	}
